@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_account">+ New Account</string>
+    <string name="username_message">Enter Username</string>
+    <string name="password_message">Enter Password</string>
+    <string name="repeat_password">Repeat Password:</string>
+    <string name="create_account">Create Account</string>
+    <string name="play">START NEW GAME</string>
+    <string name="resume">RESUME</string>
+    <string name="scoreboard">View Scoreboard</string>
+    <string name="palladium">PALLADIUM:</string>
+    <string name="highscore">HIGHSCORE:</string>
+    <string name="choose_avater">Choose Avatar:</string>
+    <string name="level_background">Choose Level Background:</string>
+    <string name="start">START GAME</string>
+    <string name="save">SAVE AND QUIT</string>
+    <string name="pause_button_content_description">press to pause game</string>
+    <string name="restart_button_content_description">press to restart game</string>
+    <string name="continue_game">ContinueGame</string>
+    <string name="account_taken">Username already taken!</string>
+    <string name="passwords_no_match">Passwords don\'t match!</string>
+    <string name="no_save">No Saved Game!</string>
+    <string name="user">PLAYER</string>
+    <string name="score">HIGHSCORE</string>
+    <string name="back_to_menu">Go back to main menu</string>
+    <string name="no_palladium">Not enough Palladium!</string>
+    <string name="account_successfully_created_msg">Account Successfully Created!</string>
+    <string name="invalid_username_password">Invalid username or password </string>
+    <string name="account_succesfully_created">Account Successfully Created!</string>
+    <string name="username_taken">Username Taken!</string>
+    <string name="paused">Paused</string>
+    <string name="retry">Retry</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="restart_level_button_text">Restart Level</string>
+    <string name="end_level_description">Display different
+        images depending on if the user died during the level.</string>
+    <string name="account_creation_unsuccessful">Account Creation Unsuccessful!</string>
+    <string name="resume_button_text">Resume</string>
+    <string name="start_game_button_text">Start Journey</string>
+    <string name="title_text">SPACE ADVENTURE</string>
+    <string name="next_level_button_text">NEXT LEVEL</string>
+</resources>

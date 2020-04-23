@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    tools:context=".StartGameActivity">
+
+
+    <ImageButton
+        android:id="@+id/backgroundBtn0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/background"
+        android:cropToPadding="true"
+        android:onClick="setBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/avatarBtn0"
+        app:layout_constraintTop_toBottomOf="@+id/avatarBtn0" />
+
+    <ImageButton
+        android:id="@+id/backgroundBtn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/background1"
+        android:cropToPadding="true"
+        android:onClick="setBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/avatarBtn1"
+        app:layout_constraintTop_toBottomOf="@+id/avatarBtn1" />
+
+    <ImageButton
+        android:id="@+id/backgroundBtn2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/background2"
+        android:cropToPadding="true"
+        android:onClick="setBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/avatarBtn2"
+        app:layout_constraintTop_toBottomOf="@+id/avatarBtn2" />
+
+    <ImageButton
+        android:id="@+id/backgroundBtn3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/background3"
+        android:cropToPadding="true"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="setBackground"
+        android:tint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/avatarBtn3"
+        app:layout_constraintTop_toBottomOf="@+id/avatarBtn3" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_avater"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <ImageButton
+        android:id="@+id/avatarBtn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/astronaut1"
+        android:onClick="setAvatar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <ImageButton
+        android:id="@+id/avatarBtn2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/astronaut2"
+        android:onClick="setAvatar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/avatarBtn1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <ImageButton
+        android:id="@+id/avatarBtn3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/astronaut3"
+        android:onClick="setAvatar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/avatarBtn2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <ImageButton
+        android:id="@+id/avatarBtn0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="150"
+        android:background="@drawable/astronaut"
+        android:onClick="setAvatar"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/avatarBtn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/level_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startGame"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.81" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
