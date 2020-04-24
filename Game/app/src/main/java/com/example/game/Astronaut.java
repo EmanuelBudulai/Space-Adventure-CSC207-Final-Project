@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 
 public class Astronaut extends GameObject {
-
+    // test test test
     /**
      * whether the astronaut is in a jumping state
      */
